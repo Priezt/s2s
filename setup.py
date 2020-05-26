@@ -2,11 +2,11 @@ import pathlib
 from setuptools import setup
 
 HERE = pathlib.Path(__file__).parent
-README = (HERE / "README.md").read_text()
+README = (HERE / "README2").read_text()
 
 setup(
     name="s4s",
-    version="1.0.2",
+    version="1.0.3",
     description="Service for Script",
     long_description=README,
     long_description_content_type="text/markdown",
